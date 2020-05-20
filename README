@@ -1,0 +1,23 @@
+suckde - suckless desktop environment
+-------------------------------------
+suckde is an effort to share themes and configurations between suckless
+programs. It's inspired in u/Liebach's SDE over at reddit [1].
+
+Unlike SDE, suckde does not automatically theme your programs, it only 
+provides utilities to build all of them at once, and given that you've 
+configured your builds accordingly, can also update your configurations.
+
+Batch build
+-----------
+For the batch build to work, each of your builds should be in 'rocks' folder.
+
+Theming
+-------
+For the themes to work, your 'config.h' file in each build should include
+'theme.h' that will define THEME_* macros, such as 'THEME_FONT', 
+'THEME_RED', etc. These macros should be used instead of hard-coded strings,
+and will be provided to each build by copying the suckde's 'theme.h' file. 
+Defaults are in 'theme.def.h' and use 'base16-default-dark' theme by default.
+
+[1] https://www.reddit.com/r/suckless/comments/fizghi/suckless_desktop_environment/
+
