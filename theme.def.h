@@ -4,7 +4,7 @@
 
 #include "themes/base16-default-dark.h"
 
-#define DEFAULT_FONT "monospace:size=12"
+#define THEME_FONT "monospace:size=12"
 
 /*
 #define EXTRA_FONTS "FontName1:size=12", "FontName2:size=12", (...)
