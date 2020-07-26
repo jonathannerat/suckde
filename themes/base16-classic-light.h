@@ -1,0 +1,31 @@
+/*
+ * Base16: https://github.com/chriskempson/base16
+ */
+
+#define THEME_BACKGROUND "#F5F5F5"
+#define THEME_FOREGROUND "#303030"
+
+/*
+ * Colors
+ */
+#define THEME_BLACK "#F5F5F5"
+#define THEME_RED "#AC4142"
+#define THEME_GREEN "#90A959"
+#define THEME_YELLOW "#F4BF75"
+#define THEME_BLUE "#6A9FB5"
+#define THEME_MAGENTA "#AA759F"
+#define THEME_CYAN "#75B5AA"
+#define THEME_WHITE "#303030"
+
+/*
+ * Bright colors
+ */
+
+#define THEME_BRIGHTBLACK "#B0B0B0"
+#define THEME_BRIGHTRED "#AC4142"
+#define THEME_BRIGHTGREEN "#90A959"
+#define THEME_BRIGHTYELLOW "#F4BF75"
+#define THEME_BRIGHTBLUE "#6A9FB5"
+#define THEME_BRIGHTMAGENTA "#AA759F"
+#define THEME_BRIGHTCYAN "#75B5AA"
+#define THEME_BRIGHTWHITE "#151515"
