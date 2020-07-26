@@ -10,7 +10,7 @@ else
     # create theme folder in target utility / program
     [ -d "$target/themes" ] || mkdir "$target/themes"
 
-    cp theme.h "$target/"
+    cmp -s "theme.h" "$target/theme.h" || cp theme.h "$target/"
     cp "$theme_path" "$target/themes/"
   done
 fi
