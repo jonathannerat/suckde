@@ -11,6 +11,6 @@ else
     [ -d "$target/themes" ] || mkdir "$target/themes"
 
     cmp -s "theme.h" "$target/theme.h" || cp theme.h "$target/"
-    cp "$theme_path" "$target/themes/"
+    [ -L "$target/$theme_path" ] || ln -rs "$theme_path" "$target/themes/"
   done
 fi
